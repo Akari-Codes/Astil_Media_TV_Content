@@ -1,0 +1,192 @@
+<link rel="stylesheet" href="media.css"><link rel="icon" type="image/x-icon" href="/banner-dark.png"><title>Astil Media TV Media Contents</title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body{font-family: Arial, Helvetica, sans-serif;background-color: rgb(27, 27, 27);color:magenta}
+    .item{text-align: center;padding-left:6px;max-width: 205px;width: 205px;text-decoration: none;color:magenta;font-weight:bolder;}
+    .lr p {
+  position: absolute;
+  bottom: 20px;
+  left: 5px;
+  color: magenta;
+  margin: 0;
+  font-weight: bolder;
+  
+}
+::-webkit-scrollbar {
+  width: 10px;
+  background: rgb(27, 27, 27);
+}
+
+::-webkit-scrollbar-track {
+  background: purple;
+  border-radius: 60px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(204, 0, 255);
+  border-radius: 60px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: magenta;
+}
+.lr a {margin-left: 20%;}
+.header {text-align:right}
+.header select {text-align:left;float:left}
+.header h1 {text-align:left;}
+.header option {text-align:left}
+.mediaselector {color:white;background-color: magenta;border:none;font-size: 17px;border-radius: 5px;}
+.header a {text-decoration: none;text-align: center;float: left;color:white;background-color: magenta;border: 4px solid magenta;font-size: 17px;border-radius: 5px;}
+.header a:hover{background-color: purple;border-color: purple;}
+input {float:left;}
+#search {float:left;}
+</style>
+<script src="fs.js"></script> 
+<div class="header">
+<h1>Astil Media TV Media Contents</h1><br>
+<a href="http://143.47.248.77/">Astil Media TV</a><br><br>
+<input id="searchbar" placeholder="Search Media"></input><button id="search" onclick="searchengine()">Search</button><br><br>
+<select class="mediaselector"name="media" id="media" onchange="remedia()">
+  <option value="all">All Media</option>
+  <option value="anime">Anime</option>
+  <option value="animemovies">Anime Movies</option>
+  <option value="movies">Movies</option>
+  <option value="tvshows">TV Shows</option>
+</select>
+<p id="topcount"></p><br>
+</div>
+
+<div id="a">
+  <div id="titletwo">
+    <h2  id="titletwo">All</h2></div>
+    <div id="titlea">
+    <h2 id="title">Anime</h2></div>
+<div class="item-contatiner">
+  <html> 
+    <head> 
+      <script src="jquery-3.7.1.min.js"></script> 
+      <script> 
+      $(function(){
+        $("#includedContenta").load("anime.html"); 
+      });
+      </script> 
+    </head> 
+  
+    <body> 
+       <div id="includedContenta"></div>
+    </body> 
+  </html>
+  <div class="?? lr " id="dummya">
+    <a href="url">
+    <p><br><font size="1"></font></p></a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+</div></div>
+
+<div id="am">
+  <div id="titleam">
+  <h2 id="title">Anime Movies</h2></div>
+<div class="item-contatiner">
+  <html> 
+    <head> 
+      <script src="jquery-3.7.1.min.js"></script> 
+      <script> 
+      $(function(){
+        $("#includedContentam").load("animemovies.html"); 
+      });
+      </script> 
+    </head> 
+  
+    <body> 
+       <div id="includedContentam"></div>
+    </body> 
+  </html>
+  <div class="?? lr " id="dummyam">
+    <a href="url">
+    <p><br><font size="1"></font></p></a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+</div></div>
+<div id="m">
+  <div id="titlem">
+  <h2 id="title">Movies</h2></div>
+<div class="item-contatiner">
+  <html> 
+    <head> 
+      <script src="jquery-3.7.1.min.js"></script> 
+      <script> 
+      $(function(){
+        $("#includedContentm").load("movies.html"); 
+      });
+      </script> 
+    </head> 
+  
+    <body> 
+       <div id="includedContentm"></div>
+    </body> 
+  </html>
+  <div class="?? lr " id="dummym">
+    <a href="url">
+    <p><br><font size="1"></font></p></a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+</div></div>
+<div id="tvs">
+  <div id="titletvs">
+  <h2 id="title">TV Shows</h2></div>
+<div class="item-contatiner">
+  <html> 
+    <head> 
+      <script src="jquery-3.7.1.min.js"></script> 
+      <script> 
+      $(function(){
+        $("#includedContenttvs").load("tvshows.html"); 
+      });
+      </script> 
+    </head> 
+  
+    <body> 
+       <div id="includedContenttvs"></div>
+    </body> 
+  </html>
+<div class="?? lr " id="dummytvs">
+  <a href="url">
+  <p><br><font size="1"></font></p></a>
+</div>
+<div class="?? lr " id="dummym">
+  <a href="url">
+  <p><br><font size="1"></font></p></a>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+<p style="text-align: center;" id="botcount"></p>
+<script src="morejs.js"></script>
+<script>
+  var w = window.innerWidth;
+  var h = window.innerHeight;
+  if (w <= 624) {
+    window.open("./mobileindex.html")
+
+  }
+  if (h <= 624) {
+    window.open("./mobileindex.html")
+  
+  }
+  document.getElementById("titlea").style.display = "none";
+  document.getElementById("titleam").style.display = "none";
+  document.getElementById("titlem").style.display = "none";
+  document.getElementById("titletvs").style.display = "none";
+  document.getElementById("dummya").style.display = "none";
+  document.getElementById("dummyam").style.display = "none";
+  document.getElementById("dummym").style.display = "none";
+  document.getElementById("dummytvs").style.display = "none";
+  document.getElementById("topcount").innerText = "[ Anime's - " + getanimecount() + " | Anime Movie's - " + getamcount() + " | Movie's - " + getmoviecount() + " | TV Show's - " + gettvscount() + " ]";
+  document.getElementById("botcount").innerText = "[ Anime's - " + getanimecount() + " | Anime Movie's - " + getamcount() + " | Movie's - " + getmoviecount() + " | TV Show's - " + gettvscount() + " ]";
+  function remedia() {
+  var x = document.getElementById("media").value;
+  if(x == "all") {document.getElementById("topcount").innerText = "[ Anime's - " + getanimecount() + " | Anime Movie's - " + getamcount() + " | Movie's - " + getmoviecount() + " | TV Show's - " + gettvscount() + " ]";document.getElementById("botcount").innerText = "[ Anime's - " + getanimecount() + " | Anime Movie's - " + getamcount() + " | Movie's - " + getmoviecount() + " | TV Show's - " + gettvscount() + " ]";document.getElementById("titlea").style.display = "none";document.getElementById("titleam").style.display = "none";document.getElementById("titlem").style.display = "none";document.getElementById("titletvs").style.display = "none";document.getElementById("title").style.display = "none";  document.getElementById("dummya").style.display = "none";document.getElementById("dummyam").style.display = "none";document.getElementById("dummym").style.display = "none";document.getElementById("dummytvs").style.display = "none";document.getElementById("titletwo").style.display = "block";document.getElementById("titletwo").style.display = "block";document.getElementById("a").style.display = "block";document.getElementById("am").style.display = "block";document.getElementById("m").style.display = "block";document.getElementById("tvs").style.display = "block";document.getElementById("title").style.display = "none";};
+  if(x == "anime") {document.getElementById("topcount").innerText = "[ Anime's - " + getanimecount() + " ]";document.getElementById("botcount").innerText = "[ Anime's - " + getanimecount() + " ]";document.getElementById("titletwo").style.display = "none";document.getElementById("dummya").style.display = "block";document.getElementById("dummyam").style.display = "block";document.getElementById("dummym").style.display = "block";document.getElementById("dummytvs").style.display = "block";document.getElementById("titlea").style.display = "block";document.getElementById("titleam").style.display = "block";document.getElementById("titlem").style.display = "block";document.getElementById("titletvs").style.display = "block";document.getElementById("a").style.display = "block";document.getElementById("am").style.display = "none";document.getElementById("m").style.display = "none";document.getElementById("tvs").style.display = "none";};
+  if(x == "animemovies") {document.getElementById("topcount").innerText = "[ Anime Movie's - " + getamcount() + " ]";document.getElementById("botcount").innerText = "[ Anime Movie's - " + getamcount() + " ]";document.getElementById("titletwo").style.display = "none";document.getElementById("dummya").style.display = "block";document.getElementById("dummyam").style.display = "block";document.getElementById("dummym").style.display = "block";document.getElementById("dummytvs").style.display = "block";document.getElementById("titlea").style.display = "block";document.getElementById("titleam").style.display = "block";document.getElementById("titlem").style.display = "block";document.getElementById("titletvs").style.display = "block";document.getElementById("a").style.display = "none";document.getElementById("am").style.display = "block";document.getElementById("m").style.display = "none";document.getElementById("tvs").style.display = "none";}
+  if(x == "movies") {document.getElementById("topcount").innerText = "[ Movie's - " + getmoviecount() + " ]";document.getElementById("botcount").innerText = "[ Movie's - " + getmoviecount() + " ]";document.getElementById("titletwo").style.display = "none";document.getElementById("dummya").style.display = "block";document.getElementById("dummyam").style.display = "block";document.getElementById("dummym").style.display = "block";document.getElementById("dummytvs").style.display = "block";document.getElementById("titlea").style.display = "block";document.getElementById("titleam").style.display = "block";document.getElementById("titlem").style.display = "block";document.getElementById("titletvs").style.display = "block";document.getElementById("a").style.display = "none";document.getElementById("am").style.display = "none";document.getElementById("m").style.display = "block";document.getElementById("tvs").style.display = "none";}
+  if(x == "tvshows") {document.getElementById("topcount").innerText = "[ TV Show's - " + gettvscount() + " ]";document.getElementById("botcount").innerText = "[ TV Show's - " + gettvscount() + " ]";document.getElementById("titletwo").style.display = "none";document.getElementById("dummya").style.display = "block";document.getElementById("dummyam").style.display = "block";document.getElementById("dummym").style.display = "block";document.getElementById("dummytvs").style.display = "block";document.getElementById("titlea").style.display = "block";document.getElementById("titleam").style.display = "block";document.getElementById("titlem").style.display = "block";document.getElementById("titletvs").style.display = "block";document.getElementById("a").style.display = "none";document.getElementById("am").style.display = "none";document.getElementById("m").style.display = "none";document.getElementById("tvs").style.display = "block";}
+  };
+  </script>
+  <script src="searchbarscript.js"></script>

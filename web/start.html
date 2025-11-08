@@ -1,0 +1,17 @@
+<select id="media_type">
+<option value="null">Select a Media Type</option>
+<option value="Anime">Anime</option>
+<option value="Anime_Movies">Anime Movies</option>
+<option value="TV_Shows">TV Shows</option>
+</select><button onclick="continue_to_add_media()">Continue to Add Media</button>
+<p id="media_type_error"></p>
+
+<script>
+    function continue_to_add_media() {
+        if(document.getElementById("media_type").value === "null") {document.getElementById("media_type_error").innerHTML = "Please Select a Valid Media Type"}
+        else {
+            document.getElementById("media_type_error").innerHTML = "";
+            pywebview.api.media_page();
+        };
+    }
+</script>

@@ -1,0 +1,21 @@
+<h2 id="mt_title">Add [media_type] Media</h2>
+<br>
+<input id="media_name" placeholder="Enter Title"><br><br>
+<input id="amtv_id" placeholder="Enter Media AMTV ID"><br><br>
+<button onclick="check_and_add()">Add</button> <button onclick="var mode = 'process_media'; pywebview.api.media_list(mode)" style="float:right;">Publish Media</button>
+<div id="media_container"></div>
+<script>
+    function check_and_add() {
+        var media_name = document.getElementById("media_name").value;
+        var amtv_id = document.getElementById("amtv_id").value;
+        add_media(media_name, amtv_id);
+    };
+    function add_media(media_name, amtv_id) {
+        var html = document.getElementById("media_container").innerHTML + '<div id="' + amtv_id + '"><h3>' + media_name + '</h3><img src="http://143.47.248.77/Items/' + amtv_id + '/Images/Primary"></img><font>'+ amtv_id + '</font></div>';
+        document.getElementById("media_container").innerHTML = html
+        var id = amtv_id;
+        var mode = "add_media";
+        var media = media_name;
+        pywebview.api.media_list(mode, id, name);
+    };
+</script>

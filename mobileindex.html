@@ -1,0 +1,197 @@
+<link rel="stylesheet" href="media.css"><link rel="icon" type="image/x-icon" href="/banner-dark.png"><title>Astil Media TV Media Contents</title><meta name="viewport" content="width=device-width, initial-scale=1"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    body{font-family: Arial, Helvetica, sans-serif;background-color: rgb(27, 27, 27);color:magenta}
+    .item{text-align: center;padding-left:6px;max-width: 205px;width: 205px;text-decoration: none;color:magenta;font-weight:bolder;}
+    .lr p {
+  position: absolute;
+  bottom: 20px;
+  left: 5px;
+  color: magenta;
+  margin: 0;
+  font-weight: bolder;
+  
+}
+.lr {left:150px;text-align: center;align-self: center;align-items: center;float:none;}
+.item-container {text-align: center;align-self: center;align-items: center;float:inline-end;}
+::-webkit-scrollbar {
+  width: 10px;
+  background: rgb(27, 27, 27);
+}
+
+::-webkit-scrollbar-track {
+  background: purple;
+  border-radius: 60px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(204, 0, 255);
+  border-radius: 60px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: magenta;
+}
+.lr a {margin-left: 20%;}
+.header {text-align:center}
+.header select {text-align:center}
+.header h1 {text-align:center}
+.header option {text-align:center}
+.mediaselector {color:white;background-color: magenta;border:none;font-size: 17px;border-radius: 5px;}
+.header a {text-decoration: none;text-align: center;color:white;background-color: magenta;border: 5px solid magenta;font-size: 17px;border-radius: 5px;}
+.header a:hover{background-color: purple;border-color: purple;}
+</style>
+<div class="header">
+<h1>Astil Media TV Media Contents</h1><br><br><br>
+<a href="http://143.47.248.77/">Astil Media TV</a><br><br>
+<select class="mediaselector"name="media" id="media" onchange="remedia()">
+  <option value="all">All Media</option>
+  <option value="anime">Anime</option>
+  <option value="animemovies">Anime Movies</option>
+  <option value="tvshows">TV Shows</option>
+</select><br><br>
+<p id="topcount" style="text-align: center;"></p>
+</div>
+<h2 id="titletwo" style="text-align: center;">All</h2>
+<div id="a">
+    
+<div class="item-contatiner">
+  <html> 
+    <head> 
+      <script src="jquery-3.7.1.min.js"></script> 
+      <script> 
+      $(function(){
+        $("#includedContenta").load("anime.html"); 
+      });
+      </script> 
+    </head> 
+  
+    <body> 
+      <div id="titlea"><br>
+    <h2 id="title" style="text-align: center;">Anime</h2></div>
+       <div id="includedContenta"></div>
+    </body> 
+  </html>
+  <div class="?? lr " id="dummya">
+    <a href="url">
+    <p><br><font size="1"></font></p></a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+</div></div>
+
+<div id="am">
+  
+<div class="item-contatiner">
+  <html> 
+    <head> 
+      <script src="jquery-3.7.1.min.js"></script> 
+      <script> 
+      $(function(){
+        $("#includedContentam").load("animemovies.html"); 
+      });
+      </script> 
+    </head> 
+  
+    <body> 
+      <div id="titleam"><br>
+  <h2 id="title" style="text-align: center;">Anime Movies</h2></div>
+       <div id="includedContentam"></div>
+    </body> 
+  </html>
+  <div class="?? lr " id="dummyam">
+    <a href="url">
+    <p><br><font size="1"></font></p></a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  </div>
+</div></div>
+<div id="tvs">
+  
+<div class="item-contatiner">
+  <html> 
+    <head> 
+      <script src="jquery-3.7.1.min.js"></script> 
+      <script> 
+      $(function(){
+        $("#includedContenttvs").load("tvshows.html"); 
+      });
+      </script> 
+    </head> 
+  
+    <body> 
+      <div id="titletvs"><br>
+  <h2 id="title" style="text-align: center;">TV Shows</h2></div>
+       <div id="includedContenttvs"></div>
+    </body> 
+  </html>
+<div class="?? lr " id="dummytvs">
+  <a href="url">
+  <p><br><font size="1"></font></p></a>
+</div>
+<div class="?? lr " id="dummym">
+  <a href="url">
+  <p><br><font size="1"></font></p></a>
+  <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+</div>
+<script src="morejs.js"></script>
+<script>
+   var x = document.getElementById("media").value;
+  document.getElementById("titletwo").style.display = "block";
+document.getElementById("topcount").innerText = "[ Anime's - " + getanimecount() + " | Anime Movie's - " + getamcount() + " | TV Show's - " + gettvscount() + " ]";
+  document.getElementById("a").style.display = "block";
+  document.getElementById("am").style.display = "block";
+  document.getElementById("tvs").style.display = "block";
+document.getElementById("includedContenta").style.display = "block";
+  document.getElementById("includedContentam").style.display = "block";
+  document.getElementById("includedContenttvs").style.display = "block";
+  remedia();
+  function remedia() {
+  var x = document.getElementById("media").value;
+  if(x == "all") {  var x = document.getElementById("media").value;
+  document.getElementById("titletwo").style.display = "block";
+document.getElementById("topcount").innerText = "[ Anime's - " + getanimecount() + " | Anime Movie's - " + getamcount() + " | TV Show's - " + gettvscount() + " ]";
+  document.getElementById("a").style.display = "block";
+  document.getElementById("am").style.display = "block";
+  document.getElementById("tvs").style.display = "block";
+  document.getElementById("titlea").style.display = "none";
+  document.getElementById("titleam").style.display = "none";
+  document.getElementById("titletvs").style.display = "none";
+document.getElementById("includedContenta").style.display = "block";
+  document.getElementById("includedContentam").style.display = "block";
+  document.getElementById("includedContenttvs").style.display = "block";};
+  if(x == "anime") {  var x = document.getElementById("media").value;
+  document.getElementById("titletwo").style.display = "none";
+  document.getElementById("topcount").innerText = "[ Anime's - " + getanimecount() + " ]";
+  document.getElementById("a").style.display = "block";
+  document.getElementById("am").style.display = "none";
+  document.getElementById("tvs").style.display = "none";
+  document.getElementById("titlea").style.display = "block";
+  document.getElementById("titleam").style.display = "none";
+  document.getElementById("titletvs").style.display = "none";
+document.getElementById("includedContenta").style.display = "block";
+  document.getElementById("includedContentam").style.display = "none";
+  document.getElementById("includedContenttvs").style.display = "none"};
+  if(x == "animemovies") {  var x = document.getElementById("media").value;
+  document.getElementById("titletwo").style.display = "none";
+  document.getElementById("topcount").innerText = "[ Anime Movie's - " + getamcount() + " ]";
+  document.getElementById("a").style.display = "none";
+  document.getElementById("am").style.display = "block";
+  document.getElementById("tvs").style.display = "none";
+  document.getElementById("titlea").style.display = "none";
+  document.getElementById("titleam").style.display = "block";
+  document.getElementById("titletvs").style.display = "none";
+document.getElementById("includedContenta").style.display = "none";
+  document.getElementById("includedContentam").style.display = "block";
+  document.getElementById("includedContenttvs").style.display = "none";}
+  if(x == "tvshows") {  var x = document.getElementById("media").value;
+  document.getElementById("titletwo").style.display = "none";
+  document.getElementById("topcount").innerText = "[ TV Show's - " + gettvscount() + " ]";
+  document.getElementById("a").style.display = "none";
+  document.getElementById("am").style.display = "none";
+  document.getElementById("tvs").style.display = "block";
+  document.getElementById("titlea").style.display = "none";
+  document.getElementById("titleam").style.display = "none";
+  document.getElementById("titletvs").style.display = "block";
+document.getElementById("includedContenta").style.display = "none";
+  document.getElementById("includedContentam").style.display = "none";
+  document.getElementById("includedContenttvs").style.display = "block";}
+  };
+  </script>
