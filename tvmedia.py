@@ -79,8 +79,8 @@ function gettvscount() {var tvscount = '""" + tvshowcounts + """';return tvscoun
         .""" + classname + """{
         background: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.09)),url(""" + poster + """);
         background-size: cover;
-        width: 194px;
-        height: 300px;
+        width: 182px;
+       height: 288px;
         position: relative;
         float: left;
         max-width: 200px;
