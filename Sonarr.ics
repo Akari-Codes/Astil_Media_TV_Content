@@ -1,0 +1,685 @@
+BEGIN:VCALENDAR
+NAME:Sonarr TV Schedule
+PRODID:-//github.com/ical-org/ical.net//NONSGML ical.net 4.0//EN
+VERSION:2.0
+X-WR-CALNAME:Sonarr TV Schedule
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:Charlie invites Voxtek to do a piece on the Hotel and Pentious
+ ' redemption. But she will need hard proof to convince her skeptical gues
+ ts.
+DTEND:20251105T082600Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251105T080000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Hazbin Hotel - 2x03 - Behind Closed Doors
+UID:NzbDrone_episode_6851
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:Charlie tries to do damage control by going live on television
+ ! Meanwhile\, Alastor reaches his final straw.
+DTEND:20251105T085200Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251105T082600Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Hazbin Hotel - 2x04 - It's A Deal
+UID:NzbDrone_episode_6852
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:WeTV
+DESCRIPTION:With Lu Mingze's help\, Lu Mingfei wins the card game and find
+ s the Dragon Emperor Fenrir.
+DTEND:20251107T022300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251107T020000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Dragon Raja - 2x19 - Your Real Name
+UID:NzbDrone_episode_7054
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Tokyo MX
+DESCRIPTION:Light hunts an Adventurer Killer to climb the ranks\, but he d
+ oesn't have any leads. Until a badly injured Miya teleports into his room
+ .
+DTEND:20251107T145400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251107T143000Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dunge
+ on\, I'm Out for Revenge! - 1x06 - The Adventurer Killer
+UID:NzbDrone_episode_9618
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:It is 2019 and aliens have nearly annihilated the human race w
+ ith their powerful abilities to transform. As humanity faces extinction\,
+  the aliens settle on Earth and even fully embrace human culture by livin
+ g like humans once did. Today\, it is alien student Yohei's turn to feed 
+ the two chickens kept at his school. However\, unbeknownst to him\, those
+  two chickens are hiding a surprising secret.
+DTEND:20251108T051800Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251108T050000Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Tatsuki Fujimoto 17-26 - 1x01 - A Couple Clucking Chickens Were St
+ ill Kickin' in the Schoolyard
+UID:NzbDrone_episode_9738
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:Sasaki's heart beats faster every time he looks at Kawaguchi s
+ ensei. He puts her on such a high pedestal that he even reveres her as a 
+ goddess. As he is attending supplementary lessons over spring break just 
+ to see her\, an armed man bursts into the classroom. Holding the students
+  hostage at gunpoint\, the man makes a selfish demand of Kawaguchi sensei
+ \, but Sasaki jumps right in front of the gun.
+DTEND:20251108T051800Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251108T050000Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Tatsuki Fujimoto 17-26 - 1x02 - Sasaki Stopped a Bullet
+UID:NzbDrone_episode_9739
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:Ibuki makes a big decision on the eve of his graduation and in
+ vites Yuri to walk home with him. Since he will attend college abroad\, t
+ his will be the last time he will see her. Determined to confess his long
+ -standing love for her\, he gathers his courage\, only to be interrupted 
+ by dire situations. However\, those are the least of his priorities right
+  now.
+DTEND:20251108T051800Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251108T050000Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Tatsuki Fujimoto 17-26 - 1x03 - Love is Blind
+UID:NzbDrone_episode_9740
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:After a childhood of abuse\, Shikaku is now an infamous assass
+ in. She gets hired by Yugeru\, a 3\,500-year-old vampire\, to end his tir
+ esome and boring life. However\, not even Shikaku was able to fulfill his
+  wish. Upon returning home\, Shikaku finds herself unable to stop thinkin
+ g about Yugeru as unfamiliar emotions torment her heart.
+DTEND:20251108T051800Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251108T050000Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Tatsuki Fujimoto 17-26 - 1x04 - Shikaku
+UID:NzbDrone_episode_9741
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:Toshihide's greatest treasure is an abandoned underwater piano
+ . Playing it allows him to feel connected to his mermaid mother. One day\
+ , he meets the mermaid Shiju. She has been secretly listening to his perf
+ ormances and happens to save his life. When he offers to teach her the pi
+ ano\, they soon become good friends. However\, mermaids are terrifying cr
+ eatures that feed on human beings.
+DTEND:20251108T051800Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251108T050000Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Tatsuki Fujimoto 17-26 - 1x05 - Mermaid Rhapsody
+UID:NzbDrone_episode_9742
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:Toshihide wakes up one day and learns he has a very rare and i
+ ncurable disease. Now that he has turned into a beautiful girl\, he becom
+ es the target of the boys' harassment. When Akira\, his girlfriend's brot
+ her\, comes to his rescue\, Toshihide realizes he might be attracted to A
+ kira. In this confusing situation\, Toshihide and his girlfriend must dec
+ ide what will become of their relationship.
+DTEND:20251108T051800Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251108T050000Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Tatsuki Fujimoto 17-26 - 1x06 - Woke-Up-as-a-Girl Syndrome
+UID:NzbDrone_episode_9743
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:Kenji's little sister\, Nayuta\, has horns on her head\, canno
+ t speak properly\, kills animals\, eats their carcasses\, and is generall
+ y abhorred by everyone. After all\, she is prophesied to destroy the worl
+ d. However\, she is his only family and he vows to do his best to protect
+  her. He has been managing well until Nayuta incurs the people's wrath wi
+ th her actions.
+DTEND:20251108T051800Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251108T050000Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Tatsuki Fujimoto 17-26 - 1x07 - Nayuta of the Prophecy
+UID:NzbDrone_episode_9744
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:Walking into school one morning\, Mitsuko (18) is shocked to s
+ ee a humiliating painting of her! It was painted by her little sister Kyo
+ ko and since it won the art contest\, the painting will be displayed for 
+ the entire year. Vowing to avenge this\, Mitsuko decides to shame her sis
+ ter in the same way. As she works on her painting\, Mitsuko reminisces ab
+ out her strained relationship with her sister.
+DTEND:20251108T051800Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251108T050000Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Tatsuki Fujimoto 17-26 - 1x08 - Sisters
+UID:NzbDrone_episode_9745
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Nippon TV
+DESCRIPTION:Izuku attempts to forcefully transfer One For All to Shigaraki
+ \, as this might prove to be the key to victory.
+DTEND:20251108T085300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251108T083000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:My Hero Academia - 8x06 - Wrench It Open\, Izuku Midoriya!!
+UID:NzbDrone_episode_7768
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Tokyo
+DESCRIPTION:A doctor's jealousy gets Loid into some trouble at the hospita
+ l and Anya's class goes on a field trip.
+DTEND:20251108T142400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251108T140000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:SPY x FAMILY - 3x06 - WHITE JEALOUSY / THE EDEN COLLEGE BUSJACKING
+  INCIDENT
+UID:NzbDrone_episode_7743
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:NHK
+DESCRIPTION:Fushi struggles to maintain the peace between Tonari and Mizuh
+ a.
+DTEND:20251108T151000Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251108T144500Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:To Your Eternity - 3x06 - Proof of Peace
+UID:NzbDrone_episode_9148
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Nippon TV
+DESCRIPTION:When the lecherous Happosai escapes to Nerima\, seeking the di
+ sciples who imprisoned him\, Akane and Ranma team up to deal with his per
+ verted antics.
+DTEND:20251108T162300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251108T160000Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Ranma ½ (2024) - 2x06 - The Evil Wakes
+UID:NzbDrone_episode_9283
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Asahi
+DESCRIPTION:While at the mall with Mashiro and Iroha\, Akiteru learns why 
+ Mashiro left her old school.
+DTEND:20251108T165300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251108T163000Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:My Friend's Little Sister Has It In for Me! - 1x06 - My Friend's L
+ ittle Sister Has It In for My Friend's Enemy
+UID:NzbDrone_episode_8662
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TBS (JP)
+DESCRIPTION:While the Raiders-Cleaners conflicts continue\, the battle bet
+ ween Riyo and Noerde heats up.
+DTEND:20251109T145400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251109T143000Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Gachiakuta - 1x18 - Oh Zap\, Totes Legit
+UID:NzbDrone_episode_8578
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Tokyo
+DESCRIPTION:Mukohda and his familiars conquer the dungeon and decide to ta
+ ke a little break.
+DTEND:20251111T152400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251111T150000Z
+SEQUENCE:0
+STATUS:CONFIRMED
+SUMMARY:Campfire Cooking in Another World with My Absurd Skill - 2x06 - On
+ line Grocery Levels Up
+UID:NzbDrone_episode_7756
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:Vox hosts a rally for his increasing supporters. Meanwhile\, C
+ harlie looks to Heaven for help.
+DTEND:20251112T082600Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251112T080000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Hazbin Hotel - 2x05 - Silenced
+UID:NzbDrone_episode_6853
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:Vox leads the overlords toward war with Heaven. Tensions run h
+ igh at the hotel and Husk returns to his old ways.
+DTEND:20251112T085200Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251112T082600Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Hazbin Hotel - 2x06 - Scream Rain
+UID:NzbDrone_episode_6854
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:WeTV
+DTEND:20251114T022300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251114T020000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Dragon Raja - 2x20 - TBA
+UID:NzbDrone_episode_7055
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Tokyo MX
+DTEND:20251114T145400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251114T143000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dunge
+ on\, I'm Out for Revenge! - 1x07 - TBA
+UID:NzbDrone_episode_9619
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Nippon TV
+DTEND:20251115T085300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251115T083000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:My Hero Academia - 8x07 - From Aizawa
+UID:NzbDrone_episode_7769
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Tokyo
+DTEND:20251115T142400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251115T140000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:SPY x FAMILY - 3x07 - THE RED CIRCUS
+UID:NzbDrone_episode_7744
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:NHK
+DTEND:20251115T151000Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251115T144500Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:To Your Eternity - 3x07 - The Attack
+UID:NzbDrone_episode_9149
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Nippon TV
+DTEND:20251115T162300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251115T160000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Ranma ½ (2024) - 2x07 - TBA
+UID:NzbDrone_episode_9284
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Asahi
+DTEND:20251115T165300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251115T163000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:My Friend's Little Sister Has It In for Me! - 1x07 - TBA
+UID:NzbDrone_episode_8663
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TBS (JP)
+DTEND:20251116T145400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251116T143000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Gachiakuta - 1x19 - The Watchman Series
+UID:NzbDrone_episode_8579
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Tokyo
+DTEND:20251118T152400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251118T150000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Campfire Cooking in Another World with My Absurd Skill - 2x07 - TBA
+UID:NzbDrone_episode_7757
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:Vox unveils his secret weapon\, giving Heaven their final warn
+ ing.
+DTEND:20251119T082600Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251119T080000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Hazbin Hotel - 2x07 - Weapon of Mass Distraction
+UID:NzbDrone_episode_6855
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Prime Video
+DESCRIPTION:Vox (and the Vees\, I guess) is hosting a party so everyone ca
+ n watch him take over Heaven - and you're all invited!
+DTEND:20251119T085200Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251119T082600Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Hazbin Hotel - 2x08 - Curtain Call
+UID:NzbDrone_episode_6856
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:WeTV
+DTEND:20251121T022300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251121T020000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Dragon Raja - 2x21 - TBA
+UID:NzbDrone_episode_7056
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Tokyo MX
+DTEND:20251121T145400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251121T143000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dunge
+ on\, I'm Out for Revenge! - 1x08 - TBA
+UID:NzbDrone_episode_9620
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Nippon TV
+DTEND:20251122T085300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251122T083000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:My Hero Academia - 8x08 - TBA
+UID:NzbDrone_episode_7770
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Tokyo
+DTEND:20251122T142400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251122T140000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:SPY x FAMILY - 3x08 - TBA
+UID:NzbDrone_episode_7745
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:NHK
+DTEND:20251122T151000Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251122T144500Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:To Your Eternity - 3x08 - TBA
+UID:NzbDrone_episode_9150
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Nippon TV
+DTEND:20251122T162300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251122T160000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Ranma ½ (2024) - 2x08 - TBA
+UID:NzbDrone_episode_9285
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Asahi
+DTEND:20251122T165300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251122T163000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:My Friend's Little Sister Has It In for Me! - 1x08 - TBA
+UID:NzbDrone_episode_8664
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TBS (JP)
+DTEND:20251123T145400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251123T143000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Gachiakuta - 1x20 - TBA
+UID:NzbDrone_episode_8580
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Tokyo
+DTEND:20251125T152400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251125T150000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Campfire Cooking in Another World with My Absurd Skill - 2x08 - TBA
+UID:NzbDrone_episode_7758
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:WeTV
+DTEND:20251128T022300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251128T020000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Dragon Raja - 2x22 - TBA
+UID:NzbDrone_episode_7057
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Tokyo MX
+DTEND:20251128T145400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251128T143000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dunge
+ on\, I'm Out for Revenge! - 1x09 - TBA
+UID:NzbDrone_episode_9621
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Nippon TV
+DTEND:20251129T085300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251129T083000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:My Hero Academia - 8x09 - TBA
+UID:NzbDrone_episode_7771
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Tokyo
+DTEND:20251129T142400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251129T140000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:SPY x FAMILY - 3x09 - TBA
+UID:NzbDrone_episode_7746
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:NHK
+DTEND:20251129T151000Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251129T144500Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:To Your Eternity - 3x09 - TBA
+UID:NzbDrone_episode_9151
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Nippon TV
+DTEND:20251129T162300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251129T160000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Ranma ½ (2024) - 2x09 - TBA
+UID:NzbDrone_episode_9286
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Asahi
+DTEND:20251129T165300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251129T163000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:My Friend's Little Sister Has It In for Me! - 1x09 - TBA
+UID:NzbDrone_episode_8665
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TBS (JP)
+DTEND:20251130T145400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251130T143000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Gachiakuta - 1x21 - TBA
+UID:NzbDrone_episode_8581
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Tokyo
+DTEND:20251202T152400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251202T150000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Campfire Cooking in Another World with My Absurd Skill - 2x09 - TBA
+UID:NzbDrone_episode_7759
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:WeTV
+DTEND:20251205T022300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251205T020000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Dragon Raja - 2x23 - TBA
+UID:NzbDrone_episode_7058
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Tokyo MX
+DTEND:20251205T145400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251205T143000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:My Gift Lvl 9999 Unlimited Gacha: Backstabbed in a Backwater Dunge
+ on\, I'm Out for Revenge! - 1x10 - TBA
+UID:NzbDrone_episode_9622
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Nippon TV
+DTEND:20251206T085300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251206T083000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:My Hero Academia - 8x10 - TBA
+UID:NzbDrone_episode_7772
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Tokyo
+DTEND:20251206T142400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251206T140000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:SPY x FAMILY - 3x10 - TBA
+UID:NzbDrone_episode_7747
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:NHK
+DTEND:20251206T151000Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251206T144500Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:To Your Eternity - 3x10 - TBA
+UID:NzbDrone_episode_9152
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:Nippon TV
+DTEND:20251206T162300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251206T160000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Ranma ½ (2024) - 2x10 - TBA
+UID:NzbDrone_episode_9287
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Asahi
+DTEND:20251206T165300Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251206T163000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:My Friend's Little Sister Has It In for Me! - 1x10 - TBA
+UID:NzbDrone_episode_8666
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TBS (JP)
+DTEND:20251207T145400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251207T143000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Gachiakuta - 1x22 - TBA
+UID:NzbDrone_episode_8582
+END:VEVENT
+BEGIN:VEVENT
+CATEGORIES:TV Tokyo
+DTEND:20251209T152400Z
+DTSTAMP:20251112T210656Z
+DTSTART:20251209T150000Z
+SEQUENCE:0
+STATUS:TENTATIVE
+SUMMARY:Campfire Cooking in Another World with My Absurd Skill - 2x10 - TBA
+UID:NzbDrone_episode_7760
+END:VEVENT
+END:VCALENDAR
