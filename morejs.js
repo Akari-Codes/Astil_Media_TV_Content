@@ -1,4 +1,4 @@
 
-function getanimecount() {var animecount = '338';return animecount;};
-function getamcount() {var amcount = '60';return amcount;};
+function getanimecount() {var animecount = '346';return animecount;};
+function getamcount() {var amcount = '61';return amcount;};
 function gettvscount() {var tvscount = '16';return tvscount;};       
