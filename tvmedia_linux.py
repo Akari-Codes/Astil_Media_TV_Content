@@ -49,6 +49,7 @@ def addmedia():
             poster = "'/posters/anime/" + id + ".jpg'"
         except:
             print("Skipping File Creation File Already Exists")
+            poster = "'/posters/anime/" + id + ".jpg'"
         with open(os.getcwd() + "/Astil_Media_TV_Content" + "/animecount.conf", 'r') as ac:
             count = ac.read()
         count = count
@@ -123,6 +124,7 @@ function gettvscount() {var tvscount = '""" + tvshowcounts + """';return tvscoun
             poster = "'/posters/animemovie/" + id + ".jpg'"
         except:
             print("Skipping File Creation File Already Exists")
+            poster = "'/posters/anime/" + id + ".jpg'"
         with open(os.getcwd() + "/Astil_Media_TV_Content" + "/animemcount.conf", 'r') as ac:
             count = ac.read()
         count = count
@@ -197,6 +199,7 @@ function gettvscount() {var tvscount = '""" + tvshowcounts + """';return tvscoun
             poster = "'/posters/tvshow/" + id + ".jpg'"
         except:
             print("Skipping File Creation File Already Exists")
+            poster = "'/posters/anime/" + id + ".jpg'"
         with open(os.getcwd() + "/Astil_Media_TV_Content" + "/tvscount.conf", 'r') as ac:
             count = ac.read()
         count = count
