@@ -33,10 +33,10 @@ def addmedia():
         classnamealt = id
         remove_digits = str.maketrans('', '', digits)
         classname = classnamealt.translate(remove_digits)
-        url = "http://143.47.248.77/web/#/details?id=" + id + "&serverId=5ffad972b3e34394a756f1ec62428de1"
-        backurl = "http://143.47.248.77/Items/" + id + "/Images/Primary"
-        output_file = os.getcwd() + "\\posters\\anime\\" + id + ".jpg"
-        output_path = os.getcwd() + "\\posters\\anime\\"
+        url = "http:/143.47.248.77/web/#/details?id=" + id + "&serverId=5ffad972b3e34394a756f1ec62428de1"
+        backurl = "http:/143.47.248.77/Items/" + id + "/Images/Primary"
+        output_file = os.getcwd() + "/posters/anime/" + id + ".jpg"
+        output_path = os.getcwd() + "/posters/anime/"
         try:
             Path(output_path).mkdir()
         except:
@@ -46,28 +46,28 @@ def addmedia():
             data = req.get(backurl)
             with open(output_file, 'wb')as file:
                 file.write(data.content)
-            poster = "'\\\\posters\\\\anime\\\\" + id + ".jpg'"
+            poster = "'/posters/anime/" + id + ".jpg'"
         except:
             print("Skipping File Creation File Already Exists")
-        with open(os.getcwd() + "\\animecount.conf", 'r') as ac:
+        with open(os.getcwd() + "/animecount.conf", 'r') as ac:
             count = ac.read()
         count = count
         print(count)
         newcount = int(count) + 1
-        with open(os.getcwd() + "\\animecount.conf", 'w') as ac:
+        with open(os.getcwd() + "/animecount.conf", 'w') as ac:
             ac.write(str(newcount))
-        with open(os.getcwd() + "\\animecount.conf", 'r') as acs:
+        with open(os.getcwd() + "/animecount.conf", 'r') as acs:
             animecounts = acs.read()
-        with open(os.getcwd() + "\\animemcount.conf", 'r') as amcs:
+        with open(os.getcwd() + "/animemcount.conf", 'r') as amcs:
             animemcounts = amcs.read()
-        with open(os.getcwd() + "\\tvscount.conf", 'r') as tvscs:
+        with open(os.getcwd() + "/tvscount.conf", 'r') as tvscs:
             tvshowcounts = tvscs.read()
         tabscount = """
 function getanimecount() {var animecount = '""" + animecounts + """';return animecount;};
 function getamcount() {var amcount = '""" + animemcounts + """';return amcount;};
 function gettvscount() {var tvscount = '""" + tvshowcounts + """';return tvscount;};       
 """
-        with open(os.getcwd() + "\\morejs.js", 'w') as mjs:
+        with open(os.getcwd() + "/morejs.js", 'w') as mjs:
             mjs.write(tabscount)
         maintemplate = """
         <div class='""" + classname + """ lr ' id='anime""" + str(newcount) + """'>
@@ -85,13 +85,13 @@ function gettvscount() {var tvscount = '""" + tvshowcounts + """';return tvscoun
         float: left;
         max-width: 200px;
         padding:6px;}"""
-        with open(os.getcwd() + "\\anime.html", 'r') as animehtml:
+        with open(os.getcwd() + "/anime.html", 'r') as animehtml:
             animehtml_read = animehtml.read()
-        with open(os.getcwd() + "\\anime.html", 'w') as animehtml:
+        with open(os.getcwd() + "/anime.html", 'w') as animehtml:
             maintemplate = maintemplate + animehtml_read
             print(maintemplate)
             animehtml.write(maintemplate)
-        with open(os.getcwd() + "\\media.css", 'a') as mediacss:
+        with open(os.getcwd() + "/media.css", 'a') as mediacss:
             mediacss.write(subtemplate)
         cata()
     def catam():
@@ -107,10 +107,10 @@ function gettvscount() {var tvscount = '""" + tvshowcounts + """';return tvscoun
         classnamealt = id
         remove_digits = str.maketrans('', '', digits)
         classname = classnamealt.translate(remove_digits)
-        url = "http://143.47.248.77/web/#/details?id=" + id + "&serverId=5ffad972b3e34394a756f1ec62428de1"
-        backurl = "http://143.47.248.77/Items/" + id + "/Images/Primary"
-        output_file = os.getcwd() + "\\posters\\animemovie\\" + id + ".jpg"
-        output_path = os.getcwd() + "\\posters\\animemovie\\"
+        url = "http:/143.47.248.77/web/#/details?id=" + id + "&serverId=5ffad972b3e34394a756f1ec62428de1"
+        backurl = "http:/143.47.248.77/Items/" + id + "/Images/Primary"
+        output_file = os.getcwd() + "/posters/animemovie/" + id + ".jpg"
+        output_path = os.getcwd() + "/posters/animemovie/"
         try:
             Path(output_path).mkdir()
         except:
@@ -120,28 +120,28 @@ function gettvscount() {var tvscount = '""" + tvshowcounts + """';return tvscoun
             data = req.get(backurl)
             with open(output_file, 'wb')as file:
                 file.write(data.content)
-            poster = "'\\\\posters\\\\animemovie\\\\" + id + ".jpg'"
+            poster = "'/posters/animemovie/" + id + ".jpg'"
         except:
             print("Skipping File Creation File Already Exists")
-        with open(os.getcwd() + "\\animemcount.conf", 'r') as ac:
+        with open(os.getcwd() + "/animemcount.conf", 'r') as ac:
             count = ac.read()
         count = count
         print(count)
         newcount = int(count) + 1
-        with open(os.getcwd() + "\\animemcount.conf", 'w') as ac:
+        with open(os.getcwd() + "/animemcount.conf", 'w') as ac:
             ac.write(str(newcount))
-        with open(os.getcwd() + "\\animecount.conf", 'r') as acs:
+        with open(os.getcwd() + "/animecount.conf", 'r') as acs:
             animecounts = acs.read()
-        with open(os.getcwd() + "\\animemcount.conf", 'r') as amcs:
+        with open(os.getcwd() + "/animemcount.conf", 'r') as amcs:
             animemcounts = amcs.read()
-        with open(os.getcwd() + "\\tvscount.conf", 'r') as tvscs:
+        with open(os.getcwd() + "/tvscount.conf", 'r') as tvscs:
             tvshowcounts = tvscs.read()
         tabscount = """
 function getanimecount() {var animecount = '""" + animecounts + """';return animecount;};
 function getamcount() {var amcount = '""" + animemcounts + """';return amcount;};
 function gettvscount() {var tvscount = '""" + tvshowcounts + """';return tvscount;};       
 """
-        with open(os.getcwd() + "\\morejs.js", 'w') as mjs:
+        with open(os.getcwd() + "/morejs.js", 'w') as mjs:
             mjs.write(tabscount)
         maintemplate = """
         <div class='""" + classname + """ lr ' id='animem""" + str(newcount) + """'>
@@ -159,13 +159,13 @@ function gettvscount() {var tvscount = '""" + tvshowcounts + """';return tvscoun
         float: left;
         max-width: 200px;
         padding:6px;}"""
-        with open(os.getcwd() + "\\animemovies.html", 'r') as animehtml:
+        with open(os.getcwd() + "/animemovies.html", 'r') as animehtml:
             animehtml_read = animehtml.read()
-        with open(os.getcwd() + "\\animemovies.html", 'w') as animehtml:
+        with open(os.getcwd() + "/animemovies.html", 'w') as animehtml:
             maintemplate = maintemplate + animehtml_read
             print(maintemplate)
             animehtml.write(maintemplate)
-        with open(os.getcwd() + "\\media.css", 'a') as mediacss:
+        with open(os.getcwd() + "/media.css", 'a') as mediacss:
             mediacss.write(subtemplate)
         catam()
     def cattvs():
@@ -181,10 +181,10 @@ function gettvscount() {var tvscount = '""" + tvshowcounts + """';return tvscoun
         classnamealt = id
         remove_digits = str.maketrans('', '', digits)
         classname = classnamealt.translate(remove_digits)
-        url = "http://143.47.248.77/web/#/details?id=" + id + "&serverId=5ffad972b3e34394a756f1ec62428de1"
-        backurl = "http://143.47.248.77/Items/" + id + "/Images/Primary"
-        output_file = os.getcwd() + "\\posters\\tvshow\\" + id + ".jpg"
-        output_path = os.getcwd() + "\\posters\\tvshow\\"
+        url = "http:/143.47.248.77/web/#/details?id=" + id + "&serverId=5ffad972b3e34394a756f1ec62428de1"
+        backurl = "http:/143.47.248.77/Items/" + id + "/Images/Primary"
+        output_file = os.getcwd() + "/posters/tvshow/" + id + ".jpg"
+        output_path = os.getcwd() + "/posters/tvshow/"
         try:
             Path(output_path).mkdir()
         except:
@@ -194,28 +194,28 @@ function gettvscount() {var tvscount = '""" + tvshowcounts + """';return tvscoun
             data = req.get(backurl)
             with open(output_file, 'wb')as file:
                 file.write(data.content)
-            poster = "'\\\\posters\\\\tvshow\\\\" + id + ".jpg'"
+            poster = "'/posters/tvshow/" + id + ".jpg'"
         except:
             print("Skipping File Creation File Already Exists")
-        with open(os.getcwd() + "\\tvscount.conf", 'r') as ac:
+        with open(os.getcwd() + "/tvscount.conf", 'r') as ac:
             count = ac.read()
         count = count
         print(count)
         newcount = int(count) + 1
-        with open(os.getcwd() + "\\tvscount.conf", 'w') as ac:
+        with open(os.getcwd() + "/tvscount.conf", 'w') as ac:
             ac.write(str(newcount))
-        with open(os.getcwd() + "\\animecount.conf", 'r') as acs:
+        with open(os.getcwd() + "/animecount.conf", 'r') as acs:
             animecounts = acs.read()
-        with open(os.getcwd() + "\\animemcount.conf", 'r') as amcs:
+        with open(os.getcwd() + "/animemcount.conf", 'r') as amcs:
             animemcounts = amcs.read()
-        with open(os.getcwd() + "\\tvscount.conf", 'r') as tvscs:
+        with open(os.getcwd() + "/tvscount.conf", 'r') as tvscs:
             tvshowcounts = tvscs.read()
         tabscount = """
 function getanimecount() {var animecount = '""" + animecounts + """';return animecount;};
 function getamcount() {var amcount = '""" + animemcounts + """';return amcount;};
 function gettvscount() {var tvscount = '""" + tvshowcounts + """';return tvscount;};       
 """
-        with open(os.getcwd() + "\\morejs.js", 'w') as mjs:
+        with open(os.getcwd() + "/morejs.js", 'w') as mjs:
             mjs.write(tabscount)
         maintemplate = """
         <div class='""" + classname + """ lr ' id='tv""" + str(newcount) + """'>
@@ -233,13 +233,13 @@ function gettvscount() {var tvscount = '""" + tvshowcounts + """';return tvscoun
         float: left;
         max-width: 200px;
         padding:6px;}"""
-        with open(os.getcwd() + "\\tvshows.html", 'r') as animehtml:
+        with open(os.getcwd() + "/tvshows.html", 'r') as animehtml:
             animehtml_read = animehtml.read()
-        with open(os.getcwd() + "\\tvshows.html", 'w') as animehtml:
+        with open(os.getcwd() + "/tvshows.html", 'w') as animehtml:
             maintemplate = maintemplate + animehtml_read
             print(maintemplate)
             animehtml.write(maintemplate)
-        with open(os.getcwd() + "\\media.css", 'a') as mediacss:
+        with open(os.getcwd() + "/media.css", 'a') as mediacss:
             mediacss.write(subtemplate)
         cattvs()
     os.system('clear')
